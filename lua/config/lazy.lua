@@ -29,6 +29,12 @@ require("lazy").setup({
 
     { "neovim/nvim-lspconfig" },
     { "nvim-treesitter/nvim-treesitter" },
+    {
+      "folke/snacks.nvim",
+      opts = {
+        explorer = { enabled = false },
+      },
+    },
     -- import/override with your plugins
     { import = "plugins" },
   },
